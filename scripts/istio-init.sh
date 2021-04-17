@@ -11,6 +11,7 @@ if [[ ! -x "$(command -v helm)" ]]; then
     echo "helm not found"
     exit 1
 fi
+echo "Istio Iniit script invoked moneeee"
 
 VERSION=1.9.3
 REPO_ROOT=$(git rev-parse --show-toplevel)
